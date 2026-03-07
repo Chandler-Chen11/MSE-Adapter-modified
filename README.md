@@ -1,6 +1,6 @@
 # MM-Adapter-DDPversion
 
-This project is a modified version of the MSE-Adapter framework, designed for multi-modal learning tasks. The main enhancements include support for Distributed Data Parallel (DDP) multi-GPU training and improvements to several modules for better performance and flexibility.
+This project is a modified version of the [MSE-Adapter](https://github.com/AZYoung233/MSE-Adapter.git) framework, designed for multi-modal learning tasks. The main enhancements include support for Distributed Data Parallel (DDP) multi-GPU training and improvements to several modules for better performance and flexibility.
 
 ## Features
 
