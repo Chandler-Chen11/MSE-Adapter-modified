@@ -37,7 +37,7 @@ class ConfigRegression():
                     # (text, audio, video)
                     'feature_dims': (2048, 5, 20),
                     'train_samples': 1284,
-                    'num_classes': 3,
+                    'num_classes': 3, # Actually, this num classes is useless, since we are doing regression.
                     'language': 'en',
                     'KeyEval': 'MAE'
                 }
@@ -49,7 +49,7 @@ class ConfigRegression():
                     # (text, audio, video)
                     'feature_dims': (2048, 74, 35),
                     'train_samples': 16326,
-                    'num_classes': 3,
+                    'num_classes': 3, # Actually, this num classes is useless, since we are doing regression.
                     'language': 'en',
                     'KeyEval': 'MAE'
                 }
@@ -63,7 +63,7 @@ class ConfigRegression():
                     'seq_lens': (50, 925, 232),  # (text, audio, video)
                     'feature_dims': (2048, 25, 177),  # (text, audio, video)
                     'train_samples': 2722,
-                    'num_classes': 3,
+                    'num_classes': 3,# Actually, this num classes is useless, since we are doing regression.
                     'language': 'cn',
                     'KeyEval': 'MAE',
                 }
